@@ -1,0 +1,16 @@
+
+.content{
+    max-width: 600px;
+}
+header{
+    text-align: center;
+    letter-spacing: .2em;
+}
+#blue{
+    color:#006EB6
+}
+
+main{
+    text-align: left;
+    line-height: 1.5;
+}
