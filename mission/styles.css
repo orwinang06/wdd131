@@ -5,6 +5,8 @@
     margin-left: 60px;
     margin-right: 60px;
     padding: 60px;
+    display: block;
+    margin: 0 auto;
 }
 header{
     text-align: center;
