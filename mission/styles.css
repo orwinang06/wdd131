@@ -2,14 +2,18 @@
 .content{
     max-width: 600px;
     border: 1px solid #000;
+    margin-left: 60px;
+    margin-right: 60px;
     padding: 60px;
 }
 header{
     text-align: center;
     letter-spacing: .2em;
+    font-size: larger;
 }
 #blue{
     color:#006EB6;
+    font-size: 15px;
 }
 
 main{
@@ -17,6 +21,7 @@ main{
     text-align: left;
     line-height: 1.5;
     font-size: 20px;
+   
 }
 
 img{
