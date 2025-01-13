@@ -7,22 +7,21 @@
     padding: 60px;
     display: block;
     margin: 0 auto;
+    font-size: 20px;
 }
 header{
     text-align: center;
-    letter-spacing: .2rem;
-    font-size: 20px;
+    letter-spacing: 4px;
 }
 #blue{
     color:#006EB6;
-    font-size: 15px;
+    font-size: .75em;
 }
 
 main{
     margin: 0 auto;
     text-align: left;
     line-height: 1.5;
-    font-size: 20px;
    
 }
 
