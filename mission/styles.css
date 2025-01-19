@@ -1,7 +1,7 @@
 
 .content{
     max-width: 600px;
-    border: 1px solid #000;
+    border: 1px solid #333;
     margin-left: 60px;
     margin-right: 60px;
     padding: 60px;
@@ -30,4 +30,13 @@ img{
     height: 150px;
     display: block;
     margin: 0 auto;
+}
+
+.dark{
+    background-color: #333;
+    color: white;
+}
+
+.dark h2{
+    color:rgb(160, 212, 237);
 }
