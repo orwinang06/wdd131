@@ -1,1 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+header{
+    background-color: blueviolet;
+}
+
+h1{
+    font-family: Mooli;
+
+}
+
+button{
+
+}
+
+img {
+	max-width: 100%;
+}
+.gallery{
+    background-color:white;
+}
+
+figure{
+    background-color: white;
+    padding: 20px ;
+}
+
+@media screen and (min-width: 700px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
