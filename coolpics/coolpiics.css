@@ -1,5 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
- */
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
 
 
 body{
@@ -21,11 +21,14 @@ a, h1, footer{
 }
 
 button{
-
+    background-color: transparent;
+    border: none;
 }
 
 img {
 	max-width: 100%;
+    object-fit: cover;
+    height: 250px;
 }
 .gallery{
     background-color:white;
@@ -34,6 +37,13 @@ img {
 figure{
     background-color: white;
     padding: 20px ;
+}
+
+footer{
+    background-color: #52489c;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
 @media screen and (min-width: 700px) {
