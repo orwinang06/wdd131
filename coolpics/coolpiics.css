@@ -16,13 +16,10 @@ a, h1, footer{
 
 }
 
-.hide{
-    display: none;
-}
-
 button{
     background-color: transparent;
     border: none;
+    padding: 10px;
 }
 
 img {
@@ -58,5 +55,9 @@ footer{
 @media screen and (min-width: 1000px) {
     main{
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    button{
+        display: none;
     }
 }
