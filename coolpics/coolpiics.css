@@ -1,12 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+ */
 
-header{
-    background-color: blueviolet;
+
+body{
+    font-family: Mooli, sans-serif;
 }
 
-h1{
-    font-family: Mooli;
+header{
+    background-color: #52489c;
+    padding: 10px;
+}
 
+a, h1, footer{
+    color: white;
+
+}
+
+.hide{
+    display: none;
 }
 
 button{
