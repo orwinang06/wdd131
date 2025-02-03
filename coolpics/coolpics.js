@@ -6,17 +6,29 @@ function toggleMenu() {
 
 menuButton.addEventListener("click", toggleMenu);
 
+function handleResize() {
+    const menu = document.querySelector(".menu");
+    if (window.innerWidth > 1000) {
+      menu.classList.remove("hide");
+    } else {
+      menu.classList.add("hide");
+    }
+  }
+  
+  handleResize();
+  window.addEventListener("resize", handleResize);
 
-function viewerTemplate(path, text){
-    let html =`
-        <img scr="${path}" alt="${text}">`;
-    return html
-}
+  function viewerTemplate(pic, alt) {
+    return `<div class="viewer">
+      <button class="close-viewer">X</button>
+      <img src="${pic}" alt="${alt}">
+      </div>`;
+  }
 
 function viewHandler(){
 
     let body = document.querySelector("body");
-    let html = viewerTemplate("reviwer-icon.png", "ReviewImage");
+    let html = viewerTemplate("norris-fill.jpeg", "Norris");
 
     body.insertAdjacentHTML("afterbegin", html)
 

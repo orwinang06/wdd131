@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
  :root {
  --primary-color: #52489c;
- --secondary-color: #59c3c3;
- --accent-color: #f45b69;
+ --secondary-color: #0144ff;
+ --accent-color: #b3b4f3;
  --text-dark: #333;
  --text-light: #ebebeb;
  --primary-font: Arial, Helvetica,sans-serif;
- --secondary-font: Mooli, san-serif;
+ --secondary-font: "Mooli", sans-serif;
  }
 
  body {
@@ -33,6 +33,7 @@ a, h1, footer{
 }
 
 button{
+    color: white;
     background-color: transparent;
     border: none;
     padding: 10px;
@@ -52,6 +53,31 @@ figure{
     background-color: white;
     padding: 20px ;
 }
+
+.viewer {
+    display:grid;
+    grid-template-columns: 1fr;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.viewer button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    justify-self: end;
+}
+
+.viewer img{
+    justify-self: center;
+    max-width: 500px;
+}
+  
 
 footer{
     background-color: #52489c;
