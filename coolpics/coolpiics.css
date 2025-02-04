@@ -28,6 +28,10 @@ a, h1, footer{
 
 }
 
+h2{
+    text-align: center;
+}
+
 .hide {
     display: none;
 }
@@ -46,17 +50,20 @@ figure img{
     height: auto;
     margin: 1em auto;
     align-self: center;
+    background-color: white;
+    padding: 10px;
+    align-self: center;
+    box-shadow: 10px 10px 15px #333;
 }
+
+figure{
+
+}
+
 .gallery{
     background-color:white;
 }
 
-figure{
-    background-color: white;
-    /* padding: 20px ; */
-    align-self: center;
-    box-shadow: 10px 10px 15px #333;
-}
 
 .viewer {
     display:grid;
