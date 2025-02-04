@@ -19,19 +19,35 @@ function handleResize() {
   window.addEventListener("resize", handleResize);
 
   function viewerTemplate(pic, alt) {
-    return `<div class="viewer">
-      <button class="close-viewer">X</button>
-      <img src="${pic}" alt="${alt}">
-      </div>`;
+       return `<div class="viewer">
+        <button class="close-viewer">X</button>
+        <img src="${pic}" alt="${alt}">
+        </div>`;
   }
 
-function viewHandler(){
+  function closeViewer() {
+    const viewer = document.querySelector(".viewer");
+    if (viewer) viewer.remove();
+  }
 
-    let body = document.querySelector("body");
-    let html = viewerTemplate("norris-fill.jpeg", "Norris");
+function viewHandler(event){
+    const img = event.target.closest("figure img");
+    const src = img.getAttribute("src");
+    const alt = img.getAttribute("alt");
 
-    body.insertAdjacentHTML("afterbegin", html)
+    const srcParts = src.split("-");
+    let newSrc = `${srcParts[0]}-full.jpeg`;
+    let viewerHtml = viewerTemplate(newSrc, alt);
+    document.body.insertAdjacentHTML("afterbegin", viewerHtml)
 
+    const closeButton = document.querySelector(".close-viewer")
+    closeButton.addEventListener("click", closeViewer)
+}
+
+const gallery = document.querySelector(".gallery");
+
+if (gallery){
+gallery.addEventListener("click", viewHandler);
 }
 
 let btn = document.querySelector("button");

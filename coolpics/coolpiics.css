@@ -39,11 +39,13 @@ button{
     padding: 10px;
 }
 
-figure {
+figure img{
+    display: block;
 	max-width: 100%;
     object-fit: cover;
-    height: 250px;
-    box-shadow: 5px 5px 15px #333;
+    height: auto;
+    margin: 1em auto;
+    align-self: center;
 }
 .gallery{
     background-color:white;
@@ -51,7 +53,9 @@ figure {
 
 figure{
     background-color: white;
-    padding: 20px ;
+    /* padding: 20px ; */
+    align-self: center;
+    box-shadow: 10px 10px 15px #333;
 }
 
 .viewer {
@@ -92,6 +96,20 @@ footer{
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+    .viewer {
+        display:grid;
+        grid-template-columns: 1fr;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.75);
+    }
+    .viewer img{
+        justify-self: center;
+        max-width: 500px;
+    }
 
 }
 
@@ -99,7 +117,22 @@ footer{
     .gallery{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    button{
+    .menu-button{
         display: none;
+    }
+    .viewer {
+        display:grid;
+        grid-template-columns: 1fr;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.75);
+    }
+
+    .viewer img{
+        justify-self: center;
+        max-width: 900px;
     }
 }
