@@ -18,6 +18,8 @@ function handleResize() {
   handleResize();
   window.addEventListener("resize", handleResize);
 
+
+//   aria and role are for acessability
   function viewerTemplate(pic, alt) {
        return `<div class="viewer" aria-modal="true" role='dialog'>
         <button class="close-viewer">X</button>
@@ -53,6 +55,8 @@ gallery.addEventListener("click", viewHandler);
 let btn = document.querySelector("button");
 btn.addEventListener("click", viewHandler);
 
+
+// added for acessablitity
 window.addEventListener("click", function (event) {
     let modal = document.querySelector('.viewer');
     // close the modal when user clicks outside of the image
