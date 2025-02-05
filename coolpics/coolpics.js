@@ -19,7 +19,7 @@ function handleResize() {
   window.addEventListener("resize", handleResize);
 
   function viewerTemplate(pic, alt) {
-       return `<div class="viewer">
+       return `<div class="viewer" aria-modal="true" role="dialog">
         <button class="close-viewer">X</button>
         <img src="${pic}" alt="${alt}">
         </div>`;
@@ -52,3 +52,19 @@ gallery.addEventListener("click", viewHandler);
 
 let btn = document.querySelector("button");
 btn.addEventListener("click", viewHandler);
+
+window.addEventListener("click", function (event) {
+    let modal = document.querySelector('.viewer');
+    // close the modal when user clicks outside of the image
+    if (event.target === modal) {
+    modal.remove();
+    }
+    });
+    
+    // allow the escape key to close the modal as well
+    window.addEventListener("keydown", function (event) {
+    let modal = document.querySelector('.viewer');
+    if (event.key === "Escape") {
+    modal.remove();
+    }
+    });
