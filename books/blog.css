@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Mooli&display=swap');
+:root {
+--primary-color:  #AF1B3F;
+--secondary-color: #EFC69B;
+--accent-color: #473144;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Helvetica, Arial, sans-serif;
+--secondary-font: "Lora", Impact, serif;
+;
+}
+
+h1{
+    color: #473144;
+    font-family: var(--secondary-font);
+}
+
+nav{
+    border: 2px, solid, #EFC69B;
+    color: #AF1B3F;
+}
+
