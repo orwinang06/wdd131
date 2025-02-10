@@ -32,6 +32,9 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
+p{
+    font-family: var(--secondary-font);
+}
 
 .date_star{
     grid-column: 1;
