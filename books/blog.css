@@ -38,20 +38,10 @@ p{
 
 .date_star{
     grid-column: 1;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
-    border-left: 2px, solid, #EFC69B;
+    border-right: 2px solid #EFC69B;
     color: #473144;
     font-family: var(--primary-font);
     text-align: center;
-}
-
-.d1{
-    border-left: 2px, solid, #EFC69B;
-}
-
-.d2{
-    border-left: 2px, solid, #EFC69B;
 }
 
 .cover1{
