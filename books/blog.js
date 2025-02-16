@@ -47,17 +47,17 @@ articles.forEach(function(item){
 
 	let html =`
 	<div class="date_star">
-					<div class="d1">
-						<p>${item.date}</p>
-						<p>${item.ages}</p>
-						<p>${item.genre}</p>
-						<p>${item.stars}</p>
-					</div>
-				<div class="cover">
-					<h2>${item.title}</h2>
-					<img src="${item.imgSrc}" alt="${item.imgAlt}">
-					<p>${item.description}</p>
-				</div>`
+		<div class="d1">
+			<p>${item.date}</p>
+			<p>${item.ages}</p>
+			<p>${item.genre}</p>
+			<p>${item.stars}</p>
+		</div>
+		<div class="cover">
+		<h2>${item.title}</h2>
+		<img src="${item.imgSrc}" alt="${item.imgAlt}">
+		<p>${item.description}</p>
+		</div>`
 
 	book.innerHTML = html;
 

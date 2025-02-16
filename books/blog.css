@@ -16,14 +16,10 @@ h1{
     text-align: center;
 }
 
-h2{
-    font-family: var(--primary-font);
-    color: #AF1B3F;
-}
-
 nav{
     text-align: right;
-    border: 2px, solid, #EFC69B;
+    border-top: 2px, solid, #EFC69B;
+    border-bottom: 2px, solid, #EFC69B;
     color: #AF1B3F;
 }
 
@@ -31,9 +27,6 @@ main{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     gap: 1rem;
-}
-p{
-    font-family: var(--primary-font);
 }
 
 .date_star{
@@ -56,6 +49,15 @@ p{
     grid-column: 2;
     text-align: center;
     align-items: center;
+}
+
+h2{
+    font-family: var(--primary-font);
+    color: #AF1B3F;
+}
+
+p{
+    font-family: var(--primary-font);
 }
 
 #search{
