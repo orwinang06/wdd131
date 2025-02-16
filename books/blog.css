@@ -52,13 +52,14 @@ p{
     padding-right: 10px;
 }
 
-.cover1, .cover2{
+.cover{
     grid-column: 2;
     text-align: center;
     align-items: center;
 }
 
 #search{
+    color: #473144;
     grid-column: 3/4;
     grid-row: 1/3;
     border: 2px, solid, #EFC69B;
