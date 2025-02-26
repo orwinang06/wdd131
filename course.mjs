@@ -40,4 +40,4 @@ function sectionTemplate(section) {
   
   
   renderSections(aCourse.sections);
-  aCourse.showSection();
+//   aCourse.showSection();

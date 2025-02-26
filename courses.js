@@ -3,7 +3,8 @@
 import {aCourse} from "./course.mjs";
 
 
-aCourse.showSection();
+// aCourse.showSection();
+
 
   // console.log(aCourse.name)
   // console.log(aCourse['name'])
