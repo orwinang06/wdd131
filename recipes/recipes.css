@@ -1,0 +1,15 @@
+header{
+    display:flex;
+}
+
+.searchBar{
+    display:flex;
+}
+
+main{
+    display: flex;
+}
+
+#card{
+    display: flex;
+}
