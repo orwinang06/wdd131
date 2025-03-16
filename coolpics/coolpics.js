@@ -42,6 +42,9 @@ function viewHandler(event){
     let viewerHtml = viewerTemplate(newSrc, alt);
     document.body.insertAdjacentHTML("afterbegin", viewerHtml)
 
+    // let viewerHtml = viewerTemplate(src, alt);
+    // document.body.insertAdjacentHTML("afterbegin", viewerHtml)
+
     const closeButton = document.querySelector(".close-viewer")
     closeButton.addEventListener("click", closeViewer)
 }
