@@ -350,5 +350,22 @@ function init(){
 
 }
 
+function filter(query) {
+	const filtered = recipes.filter(filterFunction)
+	// sort by name
+	const sorted = filtered.sort(sortFunction)
+		return sorted
+
+}
+
+function searchHandler(e) {
+	e.preventDefault()
+	// get the search input
+  // convert the value in the input to lowercase
+  // use the filter function to filter our recipes
+  // render the filtered list
+
+}
+
 
 init()
