@@ -72,16 +72,17 @@ main {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     border: 2px solid #000;
     background-color: #fff;
     border-radius: 6px;
     margin-bottom: 1.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+
 }
 
 .card img {
@@ -110,10 +111,6 @@ main {
 
 .rating {
     margin: 0.5rem 0;
-}
-
-.icon-star {
-    color: gold;
 }
 
 .icon-star-empty {
