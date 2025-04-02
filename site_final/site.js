@@ -77,7 +77,7 @@ const container = document.querySelector("#blog_posts");
 
 blog.forEach(function(item){
 
-	let book = document.createElement("blog");
+	let blog_page = document.createElement("blog");
 
 	let html =`
 	<div class="blog_post">
@@ -93,12 +93,13 @@ blog.forEach(function(item){
         <img src="${item.imgSrc_2}" alt="${item.imgAlt_2}">
 		</div>`
 
-	book.innerHTML = html;
+	blog_pag.innerHTML = html;
 
-	container.appendChild(book);
+	container.appendChild(blog_page);
 
 });
 
+let selectElem = document.querySelector('select');
 selectElem.addEventListener("change", changeTheme);
 
 function changeTheme() {
