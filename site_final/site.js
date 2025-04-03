@@ -93,22 +93,22 @@ blog.forEach(function(item){
         <img src="${item.imgSrc_2}" alt="${item.imgAlt_2}">
 		</div>`
 
-	blog_pag.innerHTML = html;
+	blog_page.innerHTML = html;
 
 	container.appendChild(blog_page);
 
 });
 
-// let selectElem = document.querySelector('select');
-// selectElem.addEventListener("change", changeTheme);
+let selectElem = document.querySelector('select');
+selectElem.addEventListener("change", changeTheme);
 
-// function changeTheme() {
-//     let current = selectElem.value;
-//     console.log(current);
-//     if (current == "dark") {
-//         document.body.className = "dark";
-//     } else {
-//         document.body.classList.remove("dark");
+function changeTheme() {
+    let current = selectElem.value;
+    console.log(current);
+    if (current == "dark") {
+        document.body.className = "dark";
+    } else {
+        document.body.classList.remove("dark");
 
-// }
-// }
+}
+}
