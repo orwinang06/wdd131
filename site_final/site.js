@@ -4,7 +4,7 @@ const blog = [
 		title: "Airport Tips",
 		date: "March 20, 2025",
         sub_1: "Arrive Early",
-		description_1:
+		description1:
             "Busy times at the airport are often summer breaks, spring break, and holidays. Many like to try to avoid these days, but when going with a family, you may have to work around school schedules, which means spring break, and summer break for many. Holidays are always busy, people trying to go home to family, families traveling to see extended family. Plan an extra hour during these times, security lines may be extra long, even for precheck. I for a normal flight outside of that time like to plan at least 2 hours before the flight to be at the airport, but for busy times arrive closer to 3 hours earlier. If you are traveling international most recommend you arrive 3 hour early anyways, so if your traveling with your group internationally during busy times, maybe aim for four hours early. Save yourself the stress of wondering if you are going to get through security and to your gate on time.",
         sub_2: "ID",
         description2:
@@ -22,7 +22,7 @@ const blog = [
 		title: "Cancun All Inclusive",
 		date: 'March 21, 2025',
 		sub_1: "Book in Advance and Look for Deals",
-		description_1:
+		description1:
             "Just like how airports can get crazy at certain times and are bound to be more expensive and busier. Plan accordingly. Try your best to try and book in advance. This gives you more time to try and look for the best deals, make sure your able to book for your whole group, and to get cheaper prices. The closer you get to your travel date, it is often more and more expensive, so plan ahead, book ahead, and take time to look for any deals and discounts.",
         sub_2: "Pros",
         description2:
@@ -40,7 +40,7 @@ const blog = [
 		title: "Disney Parks USA",
 		date: "March 22, 2025",
 		sub_1: "Be Mindful of Where You Stay",
-		description_1:
+		description1:
             ": Like I've said on every post, be aware of busy times. For Disney there are usually an additional extra busy time, which is Halloween, so be aware of that in addition to the other very busy days. Now, with where you want to stay, that can depend on your family, but our most recent trip we have enjoyed staying at Disney resorts. In California and Disneyland, this is less important. If your at Disneyland, my advice would be to just stay really close. After you spent your day walking around, waiting in lines, standing, and enjoying your time, you will not want to walk a far distance away. My family (and me personally) really enjoys Marriot hotels, and there is a nice one that is positioned across from the park entrances and just up the street a little. It's a good option, specifically for groups and families. However in Florida, I would definitely encourage staying at a Disney resort. They are all super cutely themed, close to the parks, and give you access to specific transportation to the parks. My family has stayed at the two that are know as the budget ones, which are Art of Animation and Pop Century. These are both right by each other, separated by a lake, but connected at the Skyliners. They both have access to the Skyliners with a transfer and buses to the parks that don't have Skyliner access. This made getting to and from the parks pretty easy and quick and meant there was no parking fee and no waiting for a tram to get back to the car. It also made it really easy to park hop or to go back for lunch or a nap mid-day.",
         sub_2: "Snacks and Reusable Water Bottles",
         description2:
@@ -58,7 +58,7 @@ const blog = [
             title: "Cruises",
             date: "March 22, 2025",
             sub_1: "Book In Advance",
-		description_1:
+		description1:
             "I feel like I aways need to emphasis this, but know the busy times. With cruises specifically though, you may find deals on the cruises when you book advance. It also gives you the benefit of more options for your room situation, choosing your deck, room style, room location. Think about how close do you want to be the elevator and stairs. Do you want a balcony, windows, or in inside room? What cruise line are you booking with? The earlier you book, the more room and excursions you have available to pick from.",
         sub_2: "Drink and Internet Packages",
         description2:
