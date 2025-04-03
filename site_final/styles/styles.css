@@ -31,7 +31,11 @@
 }
 
 .logo_nav{
-    width: 100px;
+    width: 150px;
+}
+
+img{
+    max-width: 300px;
 }
 
 h1{
@@ -51,6 +55,11 @@ body {
     width: 90%;
 }
 
+#me_img{
+    width: 40%;
+}
+
 .about_me{
-    background-color: var(--secondary-color) ;
+    background-color: var(--secondary-color);
+    border: solid var(--accent2-color);
 }
