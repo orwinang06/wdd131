@@ -25,6 +25,10 @@
     --nav-hover-background-color: var(--accent1-color);
   }
 
+  img{
+    max-width: 300px;
+}
+  
 .dark{
     background-color: #333;
     color: white;
@@ -32,10 +36,6 @@
 
 .logo_nav{
     width: 150px;
-}
-
-img{
-    max-width: 300px;
 }
 
 h1{
