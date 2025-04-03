@@ -12,9 +12,9 @@ const blog = [
         sub_3: "Electronics",
         description3:
             "I personally don't mind waiting at my gate for a while, but part of the can be related to a trick my mom started teaching us when we were younger. Pack a power strip in your carry-on or personal bag. Most airlines give passengers a free carry on and personal item. I usually have a small suitcase for the carry on and a backpack or bag for my personal item. If you pack a power strip into one of the bag, you can have easy access to it. Then you only have to find one outlet and you group can all be close as you can plug many of your electronics in together and not be spread apart at many different outlets across the terminals.",
-		imgSrc_1: "images/airport_girls",
+		imgSrc_1: "images/airport_girls.jpg",
 		imgAlt_1: "Image of part of one of my travel groups together in the apirport, sitting with our legs proped up by our carry ons.",
-        imgSrc_2: "images/airplane_window",
+        imgSrc_2: "images/airplane_window.jpg",
 		imgAlt_2: "Image taken from the inside of an airplane through the window.",
 	},
 	{
@@ -30,9 +30,9 @@ const blog = [
         sub_3: "Cons",
         description3:
             "One con you may expect because it's all inclusive in an increase in price, now that may balance out if you spend your days relaxing at the resort and enjoying the amenities. However, if your plan is to go and site see, to explore and go about the city, it may not be the right fit as you'll still be buying food as your out and about. You might not be using all the free amenities that are costing you extra. If you plan to spend your day out in the city, on tours, in malls, on other beaches, then you will want to deeply consider if this is the right fit for your trip. ",
-		imgSrc_1: "images/cancun_pool",
+		imgSrc_1: "images/cancun_pool.jpg",
 		imgAlt_1: "Image of the resort pool.",
-        imgSrc_2: "images/cuncun_kids",
+        imgSrc_2: "images/cuncun_kids.jpg",
 		imgAlt_2: "Image of part of my group, including me, my siblings, and a few of my cousins.",
 	},
 	{
@@ -48,9 +48,9 @@ const blog = [
         sub_3: "Magicbands, Passes, and Lightning Lanes",
         description3:
             "While Magicbands are almost entire what is used in Walt Disney World in Florida, it wasn't quite as common the last time I went to Disneyland in California. It was still usable, but wasn't what a majority of the people were using. The Florida parks also have a lot more fun features with the Magicband+ that aren't in California, such as waving your band at specific status to make music play. These features can be fun for anyone, but only works with the Magicband+ not the standard Magicband. Magicbands can also act as your room key if you stay at a Disney Resort, for sure if Florida, this can really shrink check in time as you can check in with your phone, then get the room numbers on your phone and head straight up and open the doors with your charged Magicband. You can also connect it with a card and use it to pay for things in the park in Florida. It's always good to also be able to load up your passes on your phones as well. You can make a Disney account and have them connected on the My Disney Experience App. My family hasn't used the Lightning Lanes very often, instead, we try to plan and hit some of the typically bigger rides easy in the morning. Write kind of a game plan for what you really want to make sure you can do your best to do what you want to do. Lightning Lanes could be helpful if you don't want to wait in line for very long but be careful as sometime the Lightning Lanes end up longer than the regular line. Watch the wait times, and plan strategically where and when you want to ride what. Fireworks can be a great time to ride many popular rides, as well as early in the day, later at night, and during meal or nap times sometimes if your group doesn't need naps.",
-		imgSrc_1: "images/family_disney",
+		imgSrc_1: "images/family_disney.jpg",
 		imgAlt_1: "Image of my family at Disneyland during the Christmas Season.",
-        imgSrc_2: "images/fam_dis_night",
+        imgSrc_2: "images/fam_dis_night.jpg",
 		imgAlt_2: "Image taken from the inside of an airplane through the window.",
 		},
         {
@@ -66,9 +66,9 @@ const blog = [
         sub_3: "Excursions",
         description3:
             "While there may be plenty of fun things on the boat, the cruise line has excursions that you can book as well. My family usually tries to book these for the port stops as since they are through the cruise line they tend to make sure you are back in time or early to make sure you make it back on the boat on time. You can look around and find other things and excursions at the port stops as well, but you'll need to carefully watch the time to make sure you are able to get back to the boat on time. ",
-		imgSrc_1: "images/cruise_girls",
+		imgSrc_1: "images/cruise_girls.jpg",
 		imgAlt_1: "Image of my mom, my sister, and I on a cruise together.",
-        imgSrc_2: "images/curise_kids",
+        imgSrc_2: "images/curise_kids.jpg",
 		imgAlt_2: "Image taken fo my sibling, some of my cousins, and I from a cruise excursion together.",
             }
 ]
@@ -99,16 +99,16 @@ blog.forEach(function(item){
 
 });
 
-let selectElem = document.querySelector('select');
-selectElem.addEventListener("change", changeTheme);
+// let selectElem = document.querySelector('select');
+// selectElem.addEventListener("change", changeTheme);
 
-function changeTheme() {
-    let current = selectElem.value;
-    console.log(current);
-    if (current == "dark") {
-        document.body.className = "dark";
-    } else {
-        document.body.classList.remove("dark");
+// function changeTheme() {
+//     let current = selectElem.value;
+//     console.log(current);
+//     if (current == "dark") {
+//         document.body.className = "dark";
+//     } else {
+//         document.body.classList.remove("dark");
 
-}
-}
+// }
+// }
