@@ -24,9 +24,9 @@
     --nav-hover-link-color: white;
     --nav-hover-background-color: var(--accent1-color);
   }
-
+  
 img{
-    max-width: 300px;
+    width: 300px;
 }
   
 .dark{
@@ -52,7 +52,9 @@ body {
 
 #hero_img{
     display:block;
-    width: 100%;
+    width: 90%;
+    margin: 15px;
+    align-items: center;
 }
 
 #me_img{
@@ -105,4 +107,5 @@ nav a:hover{
 
 footer{
     background-color: var(--accent1-color);
+    height: 100px;
 }
