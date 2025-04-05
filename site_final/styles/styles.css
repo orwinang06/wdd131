@@ -31,22 +31,22 @@ img{
   
 .dark{
     background-color: #333;
-    color: white;
+    color: var(--accent1-color);
 }
 
 .logo_nav{
-    width: 150px;
+    width: 200px;
 }
 
 h1{
+    text-align: center;
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
-    font-size: 25px;
+    font-size: 40px;
 }
 
 body {
     margin: 0 auto;
-    padding: 4em;
     font-size: 18px;
   }
 
@@ -67,8 +67,37 @@ body {
 header{
     background-color: var(--primary-color);
     width: 100%;
+    display: grid;
+    grid-template-rows: 100px 100px;
 }
 
 nav{
     display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--accent2-color);
+    padding: 40px;
+    width: 25%;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
+}
+.blog_post{
+    background-color: var(--secondary-color);
+    color: var(--accent3-color);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    border: 5px solid var(--accent1-color);
+    display: grid;
+    /* grid-template-columns: ; */
+
 }
