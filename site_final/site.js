@@ -104,11 +104,9 @@ selectElem.addEventListener("change", changeTheme);
 
 function changeTheme() {
     let current = selectElem.value;
-    console.log(current);
-    if (current == "dark") {
-        document.body.className = "dark";
+    if (current === "dark") {
+        document.body.classList.add("dark");
     } else {
         document.body.classList.remove("dark");
-
-}
+    }
 }
