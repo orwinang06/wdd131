@@ -52,7 +52,7 @@ body {
 
 #hero_img{
     display:block;
-    width: 90%;
+    width: 100%;
 }
 
 #me_img{
@@ -69,11 +69,12 @@ header{
     width: 100%;
     display: grid;
     grid-template-rows: 100px 100px;
+    align-content: center;
 }
 
 nav{
     display: flex;
-    justify-content: stretch;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -100,4 +101,8 @@ nav a:hover{
     display: grid;
     /* grid-template-columns: ; */
 
+}
+
+footer{
+    background-color: var(--accent1-color);
 }
